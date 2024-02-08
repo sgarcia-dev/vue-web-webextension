@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import SharedComponent from '@shared/components/SharedComponent.vue'
 import { storageDemo } from '~/logic/storage'
 
 function openOptionsPage() {
@@ -12,6 +13,7 @@ function openOptionsPage() {
     <div>Popup</div>
     <SharedSubtitle />
 
+    <SharedComponent />
     <button class="btn mt-2" @click="openOptionsPage">
       Open Options
     </button>
