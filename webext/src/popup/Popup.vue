@@ -14,7 +14,10 @@ function openOptionsPage() {
     <SharedSubtitle />
 
     <SharedComponent />
-    <button class="btn mt-2" @click="openOptionsPage">
+    <button
+      class="btn mt-2"
+      @click="openOptionsPage"
+    >
       Open Options
     </button>
     <div class="mt-2">
